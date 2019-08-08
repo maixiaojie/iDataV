@@ -1,0 +1,171 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #0f1c30;
+}
+body {
+    user-select: none;
+    background-image: url("/images/bg01.png");
+    background-repeat: no-repeat;
+
+}
+.table-responsive {
+    width: 100%;
+}
+.echart-table {
+    width: 100%;
+    font-size: 12px;
+    margin: 15px 0;
+    color: #fff;
+}
+.echart-table tr td {
+    padding: 5px 0;
+}
+@font-face {
+    font-family: pictos;
+    src:url('/fonts/pictos.ttf');
+}
+.pictos {
+    font-family: pictos;
+    font-size: 30px;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+}
+.center {
+    flex: 3;
+    min-height: 400px;
+}
+.left, .right {
+    flex: 2;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
+.b_left, .b_right {
+    flex: 1;
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    background: url("/images/panel.png");
+    background-size: 100% 100%;
+}
+.statistics {
+    background: url("/images/panel.png");
+    background-size: 100% 100%;
+    color: #fff;
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+.map_container {
+    padding: 20px;
+    height:calc(100% - 40px);
+    box-sizing: border-box;
+    margin: 20px 0;
+    background: url("/images/panel.png");
+    background-size: 100% 100%;
+    color: #fff;
+}
+.chart_container {
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 20px 20px 20px;
+    background: url("/images/panel.png");
+    background-size: 100% 100%;
+    color: #fff;
+}
+.chart1_box::before {
+    content: '人才结构分布';
+    position: absolute;
+    top: -14px;
+    left: 30px;
+    padding: 3px 8px;
+    font-size: 16px;
+    background: #2876A3;
+}
+.chart2_box::before {
+    content: '单位结构图';
+    position: absolute;
+    top: -14px;
+    left: 30px;
+    padding: 3px 8px;
+    font-size: 16px;
+    background: #2876A3;
+}
+.chart3_box::before {
+    content: '人才引进趋势';
+    position: absolute;
+    top: -14px;
+    left: 30px;
+    padding: 3px 8px;
+    font-size: 16px;
+    background: #2876A3;
+}
+.chart4_box::before {
+    content: '培训情况统计图';
+    position: absolute;
+    top: -14px;
+    left: 30px;
+    padding: 3px 8px;
+    font-size: 16px;
+    background: #2876A3;
+}
+.form_container {
+    width: 100%;
+    float: left;
+}
+.chart_wrapper {
+    width: 100%;
+    margin-top: 20px;
+    height: 250px;
+    float: left;
+}
+.form-content {
+    width: 50%;
+    float: left;
+}
+.form-content label {
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+}
+.form-content select {
+    width: 80px;
+}
+.header {
+    margin: 0 auto;
+    width: 100%;
+    height: 65px;
+    max-width: 1920px;
+    font-size: 24px;
+    color: #5dc2fe;
+    background: url(/images/header.png) center no-repeat;
+    /*background-size: 100% 100%;*/
+    line-height: 50px;
+    text-align: center;
+}
+.w100 {
+    width: 100%;
+}
+.w50 {
+    width: 50%;
+}
+.tar {
+    text-align: right;
+}
+.tal {
+    text-align: left;
+}
+.pdt15 {
+    padding-top: 15px;
+}
