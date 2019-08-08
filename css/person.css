@@ -1,0 +1,207 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #0f1c30;
+}
+body {
+    user-select: none;
+    background-image: url("/images/bg01.png");
+    background-repeat: no-repeat;
+
+}
+.table-responsive {
+    width: 100%;
+}
+.echart-table {
+    width: 100%;
+    font-size: 12px;
+    margin: 15px 0;
+    color: #fff;
+}
+.echart-table tr td {
+    padding: 5px 0;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.left, .right {
+    flex: 1;
+    /*min-height: 400px;*/
+    display: flex;
+    flex-direction: column;
+}
+.left {
+    margin-right: -10px;
+}
+.right {
+    margin-left: -10px;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.b_left, .b_center, .b_right {
+    flex: 1;
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    background: url("/images/panel.png");
+    background-size: 100% 100%;
+}
+.text_container {
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 40px);
+    margin: 20px 20px 20px 20px;
+    background: url("/images/panel.png");
+    background-size: 100% 100%;
+    color: #fff;
+}
+.text_container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.text_container ul li {
+    width: 100%;
+    /*margin-top: 15px;*/
+    padding: 8px 0;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(93, 149, 254, .6);
+}
+.text_container ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    flex: 1;
+}
+.text_container ul li a:hover {
+    text-decoration: underline;
+}
+.text_container ul li span.time {
+    width: 100px;
+    font-size: 14px;
+    text-align: right;
+    padding: 0 5px;
+}
+.text_container p.more {
+    text-align: right;
+    margin: 10px 0;
+}
+.text_container p.more a {
+    font-size: 14px;
+    color: white;
+}
+.chart_container {
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 20px 20px 20px;
+    background: url("/images/panel.png");
+    background-size: 100% 100%;
+    color: #fff;
+}
+.text1_box::before {
+    content: '系统消息';
+    position: absolute;
+    top: -14px;
+    left: 30px;
+    padding: 3px 8px;
+    font-size: 16px;
+    background: #2876A3;
+}
+.text2_box::before {
+    content: '通知公告';
+    position: absolute;
+    top: -14px;
+    left: 30px;
+    padding: 3px 8px;
+    font-size: 16px;
+    background: #2876A3;
+}
+.chart1_box::before {
+    content: '人才结构分布';
+    position: absolute;
+    top: -14px;
+    left: 30px;
+    padding: 3px 8px;
+    font-size: 16px;
+    background: #2876A3;
+}
+.chart2_box{
+    margin: 0 0px 20px 0px;
+}
+.chart2_box::before {
+    content: '人才引进趋势';
+    position: absolute;
+    top: -14px;
+    left: 30px;
+    padding: 3px 8px;
+    font-size: 16px;
+    background: #2876A3;
+}
+.chart3_box::before {
+    content: '培训情况统计图';
+    position: absolute;
+    top: -14px;
+    left: 30px;
+    padding: 3px 8px;
+    font-size: 16px;
+    background: #2876A3;
+}
+.form_container {
+    width: 100%;
+    float: left;
+}
+.chart_wrapper {
+    width: 100%;
+    margin-top: 20px;
+    height: 250px;
+    float: left;
+}
+.form-content {
+    width: 50%;
+    float: left;
+}
+.form-content label {
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+}
+.form-content select {
+    width: 80px;
+}
+.header {
+    margin: 0 auto;
+    width: 100%;
+    height: 65px;
+    max-width: 1920px;
+    font-size: 24px;
+    color: #5dc2fe;
+    background: url(/images/header.png) center no-repeat;
+    /*background-size: 100% 100%;*/
+    line-height: 50px;
+    text-align: center;
+}
+.w100 {
+    width: 100%;
+}
+.w50 {
+    width: 50%;
+}
+.tar {
+    text-align: right;
+}
+.tal {
+    text-align: left;
+}
+.pdt15 {
+    padding-top: 15px;
+}
